@@ -2,7 +2,7 @@ from scipy.sparse import csr_matrix
 import numpy as np
 import pickle
 import os
-root = '/Users/lizhiyuan/学习/深度学习与NLP/W9大作业/LSTM-chinese-novel-generration-baseline-master/source/'
+root = '/Users/lizhiyuan/学习/深度学习与NLP/W9大作业/LSTM/source/'
 with open(root+'雪山飞狐.txt', "r", encoding="GB18030") as file:
     data = file.readlines()
     data=''.join(data)
