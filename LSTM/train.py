@@ -38,7 +38,7 @@ if os.path.exists(root + 'save_model.pth'):
 
 
 # 开始训练过程
-rnn = rnn.cpu()  # 使用gpu
+rnn = rnn.cpu() 
 loss_fn = nn.CrossEntropyLoss().cpu()
 optimizer = torch.optim.Adam([{'params': rnn.parameters(), 'initial_lr': 0.005}], lr=0.005)
 
