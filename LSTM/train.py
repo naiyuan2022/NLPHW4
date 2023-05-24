@@ -5,7 +5,7 @@ from Model import nn_LSTM
 from torch.optim.lr_scheduler import LambdaLR
 import os
 
-root = '/Users/lizhiyuan/学习/深度学习与NLP/W9大作业/LSTM-chinese-novel-generration-baseline-master/source/'
+root = '/Users/lizhiyuan/学习/深度学习与NLP/W9大作业/LSTM/source/'
 
 with open(root + 'X_train.pickle', 'rb') as handle:
     X_train = pickle.load(handle)
